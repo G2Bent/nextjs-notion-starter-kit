@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   // twitter: 'github.com/G2Bent',
-  github: 'https://github.com/G2Bent',
+  github: 'G2Bent',
   // linkedin: 'github.com/G2Bent',
 
   // default notion icon and cover images for site-wide consistency (optional)
