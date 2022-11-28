@@ -2,24 +2,27 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'Blog-44de0eba503049aa87300a280ee6a13b',
-
+  rootNotionPageId: '35a2fbc69b2648828b2b56493a0a4813',
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'vant Blog',
-  domain: 'https://www.notion.so/Blog-44de0eba503049aa87300a280ee6a13b',
-  author: 'Vant Ling',
+
+  name: 'Vant',
+  domain: 'today',
+  author: 'vant',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
-  // twitter: 'github.com/G2Bent',
+  //twitter: 'transitive_bs',
   github: 'G2Bent',
-  // linkedin: 'github.com/G2Bent',
+  //linkedin: 'fisch2',
+  // mastodon: '#', // optional mastodon profile URL, provides link verification
+  // newsletter: '#', // optional newsletter URL
+  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
